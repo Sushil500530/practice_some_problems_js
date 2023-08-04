@@ -62,7 +62,7 @@ function reverseFact(num2){
 let multiNum = 12;
 console.log('multiplication system'+ ' ' + multiNum + ' ' + 'number sum is : ' + reverseFact(multiNum));
 
-*/
+
 // try another 
 function factorial(factNumber){
     let factResult = 1;
@@ -75,3 +75,21 @@ function factorial(factNumber){
  const giveNumber = 15;
  const factCall = factorial(giveNumber);
  console.log(factCall);
+
+*/
+
+//  inches convert to feet 
+const myInche = 68;
+const myFeet = myInche / 12;
+console.log(myFeet);
+let feetFixed = myFeet.toFixed(2);
+let feetInt = parseFloat(feetFixed);
+console.log(feetInt)
+
+// feet convert inches 
+const feet = 14;
+const inches = feet * 12;
+let inchesInt = parseInt(inches);
+console.log(inchesInt)
+// console.log(inchesInt,`"`)
+console.log(feet, "feet convert inches is :" , inchesInt)
