@@ -76,7 +76,7 @@ function factorial(factNumber){
  const factCall = factorial(giveNumber);
  console.log(factCall);
 
-*/
+
 
 //  inches convert to feet 
 const myInche = 68;
@@ -92,4 +92,34 @@ const inches = feet * 12;
 let inchesInt = parseInt(inches);
 console.log(inchesInt)
 // console.log(inchesInt,`"`)
-console.log(feet, "feet convert inches is :" , inchesInt)
+console.log(feet, "feet convert inches is :" , inchesInt);
+
+*/
+
+// used while loop solve factorial
+function whileFact(num2){
+    let number2 = 1;
+    let result2 = 1;
+    while(number2 <= num2){
+        result2 = result2 * number2;
+        console.log(number2 , result2);
+        number2++;
+    }
+    return result2;
+}
+let factNum2 = 52;
+console.log(whileFact(factNum2));
+
+// used while loop solve factorial reverse
+function whileFact(num3){
+    let number3 = num3;
+    let result3 = 1;
+    while(number3 >= 1){
+        result3 = result3 * number3;
+        console.log(number3 , result3);
+        number3--;
+    }
+    return result3;
+}
+let factNum3 = 52;
+console.log(whileFact(factNum3));
