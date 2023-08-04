@@ -21,7 +21,7 @@ const num = 554541511;
 const result =isNumber(num);
 console.log(num + ' ' + 'is even number' + " : " + result);
 
-/*
+
 // used function and n type number give sum 
 function numberOfSum(num){
     let Sum =0;
@@ -94,7 +94,7 @@ console.log(inchesInt)
 // console.log(inchesInt,`"`)
 console.log(feet, "feet convert inches is :" , inchesInt);
 
-*/
+
 
 // used while loop solve factorial
 function whileFact(num2){
