@@ -48,7 +48,7 @@ function multiplecationSum(num1){
 const numbr = 5;
 console.log(multiplecationSum(numbr));
 
-*/
+
 
 // reverse factorial 
 function reverseFact(num2){
@@ -61,3 +61,17 @@ function reverseFact(num2){
 }
 let multiNum = 12;
 console.log('multiplication system'+ ' ' + multiNum + ' ' + 'number sum is : ' + reverseFact(multiNum));
+
+*/
+// try another 
+function factorial(factNumber){
+    let factResult = 1;
+    for (let i = factNumber; i >=1 ; i--){
+        factResult = factResult * i;
+         console.log(i, factResult);
+    }
+    return factResult;
+}
+ const giveNumber = 15;
+ const factCall = factorial(giveNumber);
+ console.log(factCall);
